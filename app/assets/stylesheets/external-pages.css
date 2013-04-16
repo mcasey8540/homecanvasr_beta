@@ -59,12 +59,12 @@
 /* Coming Soon
 -------------------------------------------------- */
 #comingsoon {
-	margin-top: 130px;
+	margin-top: 100px;
 }
 #comingsoon .countdown {
-	padding-bottom: 120px;
-	border-bottom: 1px solid #C0C2C5;
-	box-shadow: 0px 2px 1px 0px #fff;
+	/*padding-bottom: 5px;*/
+/*	border-bottom: 1px solid #C0C2C5;
+	box-shadow: 0px 2px 1px 0px #fff;*/
 }
 #comingsoon .countdown .left h1 {
 	margin-top: 0px;
@@ -115,6 +115,16 @@
 #comingsoon .subscribe {
 	margin-bottom: 80px;
 }
+
+#comingsoon .subscribe_email {
+	margin-bottom: 80px;
+}
+
+#comingsoon .subscribe_email form {
+	text-align: center;
+	margin-top: 40px;
+}
+
 #comingsoon .subscribe form {
 	text-align: center;
 	margin-top: 40px;
@@ -125,6 +135,14 @@
 	margin-left: 10px;
 	font-weight: bold;	
 }
+
+#comingsoon .subscribe_email form button {
+	position: relative;
+	top: -5px;
+	margin-left: 10px;
+	font-weight: bold;	
+}
+
 #comingsoon .subscribe .follow {
 	text-align: center;
 	margin-top: 40px;
