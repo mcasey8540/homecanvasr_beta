@@ -17,4 +17,8 @@ class SubscribersController < ApplicationController
   	end
   end
 
+  def survey
+
+  end
+
 end
