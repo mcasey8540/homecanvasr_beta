@@ -1,3 +1,4 @@
 HomecanvasrBeta::Application.routes.draw do
-  root :to => 'static#index'
+  root :to => 'subscribers#index'
+  resources :subscribers
 end

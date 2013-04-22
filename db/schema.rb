@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(:version => 20130416033011) do
 
-  create_table "subscribes", :force => true do |t|
+  create_table "subscribers", :force => true do |t|
     t.string   "email"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
