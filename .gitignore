@@ -18,5 +18,5 @@
 /log/*.log
 /tmp
 
-# Ignore config/gmail
+# Ignore Gmail settings
 /config/gmail_settings.yml
