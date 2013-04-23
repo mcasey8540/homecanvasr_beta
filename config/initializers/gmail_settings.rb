@@ -3,7 +3,7 @@ ActionMailer::Base.smtp_settings = {
   :port                 => 587,
   :domain               => "homecanvasr.com",
   :user_name            => "welcome@homecanvasr.com",
-  :password             => "stevenslibrary",
+  :password             => "stevens",
   :authentication       => "plain",
   :enable_starttls_auto => true
 }
