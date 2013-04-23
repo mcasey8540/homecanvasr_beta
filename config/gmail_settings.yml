@@ -1,7 +1,0 @@
-development:
-  user_name: mike
-  password: stevenslibrary
-
-production:
-  user_name: mike 
-  password: stevenslibrary
