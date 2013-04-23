@@ -11,7 +11,9 @@ class SubscribersController < ApplicationController
   def create
   	@subscriber = Subscriber.new(params[:subscriber])
   	if @subscriber.save
-  		redirect_to root_path
+  		#send mailer
+  		SubscriberMailer.welcome_email(@subscriber).deliver
+  		redirect_to root_path, notice: "Subscribed successfully."
   	else
   		redirect_to root_path
   	end

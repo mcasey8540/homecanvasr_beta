@@ -13,3 +13,10 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore 
+/log/*.log
+/tmp
+
+# Ignore config/gmail
+/config/gmail_settings.yml
