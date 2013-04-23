@@ -20,3 +20,5 @@
 
 # Ignore Gmail settings
 /config/initializers/gmail_settings.rb
+
+/config/initializers/testing.rb
