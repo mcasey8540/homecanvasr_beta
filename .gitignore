@@ -19,4 +19,4 @@
 /tmp
 
 # Ignore Gmail settings
-/config/gmail_settings.yml
+/config/initializers/gmail_settings.rb
